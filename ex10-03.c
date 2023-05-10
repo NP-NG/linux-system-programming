@@ -23,5 +23,5 @@ int main() {
 
 void int_handle(int signum) {
 	printf("SIGINT:%d\n", signum);
-	printf("int_handle called %d times\n", +num);
+	printf("int_handle called %d times\n", +num)
 }
